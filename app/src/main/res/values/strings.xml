@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">JobAlley</string>
+    <string name="profile">My Profile</string>
+    <string name="user_name">Lam Wai Hong</string>
+    <string name="personal_detail">Say something about yourself...</string>
+    <string name="skill_cat">"Skills "</string>
+    <string name="skill">Skills</string>
+    <string name="education">Education</string>
+    <string name="change_photo">Change Profile</string>
+    <string name="pronounce">Pronounce</string>
+    <string-array name="edu_array">
+        <item>SPM</item>
+        <item>STPM</item>
+        <item>A-Level</item>
+        <item>Diploma</item>
+        <item>Degree</item>
+        <item>Master</item>
+        <item>Phd</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

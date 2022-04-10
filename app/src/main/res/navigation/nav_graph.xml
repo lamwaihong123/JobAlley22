@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/userFragment">
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.joballey.UserFragment"
+        android:label="activity_main"
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/action_userFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_userFragment_to_skillsFragment"
+            app:destination="@id/skillsFragment" />
+        <action
+            android:id="@+id/action_userFragment_to_educationFragment"
+            app:destination="@id/educationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.joballey.EditProfileFragment"
+        android:label="EditProfileFragment"
+        tools:layout="@layout/fragment_edit_profile">
+        <action
+            android:id="@+id/action_editProfileFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="com.example.joballey.EducationFragment"
+        android:label="EducationFragment"
+        tools:layout="@layout/fragment_education">
+        <action
+            android:id="@+id/action_educationFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/skillsFragment"
+        android:name="com.example.joballey.SkillsFragment"
+        android:label="SkillsFragment"
+        tools:layout="@layout/fragment_skills">
+        <action
+            android:id="@+id/action_skillsFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+</navigation>
