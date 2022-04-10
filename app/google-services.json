@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285304432963",
+    "project_id": "joballey-d62b5",
+    "storage_bucket": "joballey-d62b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285304432963:android:058e1035de62be734e67f6",
+        "android_client_info": {
+          "package_name": "com.example.joballey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285304432963-c2eqfnab7c2dvimulomagpfsa3fji8pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTSc_ta8_vJaDypNgNDieO9b7ODq96FTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285304432963-c2eqfnab7c2dvimulomagpfsa3fji8pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
